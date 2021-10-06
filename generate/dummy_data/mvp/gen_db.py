@@ -8,8 +8,7 @@ data = []
 i = 1
 
 for r in range(1000):
-    data.append((i,fake.name(),fake.street_address(),
-               fake.city(),fake.zipcode()))
+    data.append((i, fake.name(), fake.street_address(), fake.city(), fake.zipcode()))
     i += 1
 
 data_for_db = tuple(data)
